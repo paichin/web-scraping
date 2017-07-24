@@ -1,4 +1,4 @@
-alpha <- rnorm(100)
+alpha = rnorm(100)
 alpha <- sort(alpha)
 alpha1 <- alpha
 for (k in 1:10){
@@ -12,3 +12,4 @@ for (k in 1:10){
 	}
 	alpha1[100] <- (1/sqrt(2*pi))*exp((-1/2)*(beta[99])^2)/(1-pnorm(beta[99]))
 }
+
